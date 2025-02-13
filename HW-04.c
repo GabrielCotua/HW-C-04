@@ -106,3 +106,67 @@ int main(void) {
 
     return 0;
 }
+
+/*
+Expected output:
+If the input contains all alphabetical vowels should output a name
+formated depending on the middle name gotten.
+
+Otherwise, if the input isn't all alphabetical vowels, the program will
+require to enter another input until the condition is met.
+
+
+
+|#####################|
+|HW #04, Gabriel Cotua|
+|#####################|
+
+
+Enter first name:
+Jocabed
+
+
+The full name is: Jocabed R. Aguilera
+
+Bye.
+
+######[OR]######
+
+
+
+|#####################|
+|HW #04, Gabriel Cotua|
+|#####################|
+
+
+Enter first name:
+G4Br1el
+
+
+Enter first name:
+G^abriel
+
+[...] // continues until the user enter a String with only alphabetical characters
+
+Enter first name:
+Gabriel
+
+
+The full name is: Gabriel G. Aguilera
+
+Bye.
+Process finished with exit code 0
+
+[Test plan]
+
+// in case input aren't all alphabetical characters
+G^briel  --> ( ask to enter another input )
+
+// in case of getting a Middle name initial to be a non-vowel
+Gabriel  --> Gabriel [random non vowel letter]. Aguilera
+
+// in case of getting a Middle name initial to be a vowel
+Jocabed  --> Aguilera, Jocabed [random vowel letter].
+
+
+*/
