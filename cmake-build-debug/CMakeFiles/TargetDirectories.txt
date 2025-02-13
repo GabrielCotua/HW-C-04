@@ -1,0 +1,3 @@
+C:/Users/HxK/CLionProjects/HW04/cmake-build-debug/CMakeFiles/HW04.dir
+C:/Users/HxK/CLionProjects/HW04/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HxK/CLionProjects/HW04/cmake-build-debug/CMakeFiles/rebuild_cache.dir
